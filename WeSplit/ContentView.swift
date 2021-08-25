@@ -48,6 +48,10 @@ struct ContentView: View {
                     .pickerStyle(SegmentedPickerStyle())
                 }
                 
+                Section(header: Text("Amount per person")) {
+                    Text("$ \(totalPerPerson, specifier: "%0.2f")")
+                }
+                
                 Section {
                     Text("$\(totalPerPerson, specifier: "%0.2f")")
                 }
