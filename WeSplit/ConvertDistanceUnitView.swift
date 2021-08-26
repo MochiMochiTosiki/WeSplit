@@ -13,6 +13,17 @@ struct ConvertDistanceUnitView {
     @State private var selectedOudputUnit = 2
     let inputUnit = ["m", "km", "feet", "yard", "mile"]
     let outputUnit = ["m", "km", "feet", "yard", "mile"]
+    let fromInputToMeter = ["m": 1.0, "km": 1000.0, "feet": 0.3048, "yard": 0.9144, "mile": 1609.34]
+    let fromMeterToOutputUnit = ["m": 1.0, "km": 0.001, "feet": 3.28084, "yard": 1.093613, "mile": 0.0006214]
+    
+    var result: Double {
+        let input = Double(inputDistance) ?? 0.0
+        let inputUnit = inputUnit[selectedInputUnit]
+        let distance = input * fromInputToMeter[inputUnit]!
+        
+        let outputUnit = outputUnit[selectedOudputUnit]
+        return distance * fromMeterToOutputUnit[outputUnit]!
+    }
 }
 
 extension ConvertDistanceUnitView: View {
@@ -43,7 +54,7 @@ extension ConvertDistanceUnitView: View {
                 }
                 
                 Section(header: Text("Result")) {
-                    Text("")
+                    Text("\(result)")
                 }
             }
             .navigationTitle("Convert Distance Unit")
