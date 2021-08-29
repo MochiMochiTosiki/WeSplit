@@ -11,6 +11,8 @@
 		8F25D03126CBA1B300FDD1B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25D03026CBA1B300FDD1B4 /* ContentView.swift */; };
 		8F25D03326CBA1B500FDD1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F25D03226CBA1B500FDD1B4 /* Assets.xcassets */; };
 		8F25D03626CBA1B500FDD1B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F25D03526CBA1B500FDD1B4 /* Preview Assets.xcassets */; };
+		8FE8EAE826D7E661003E3CB6 /* ConvertDistanceUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8EAE726D7E660003E3CB6 /* ConvertDistanceUnitView.swift */; };
+		8FE8EAEA26D86CC8003E3CB6 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE8EAE926D86CC8003E3CB6 /* GuessTheFlag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8F25D03226CBA1B500FDD1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F25D03526CBA1B500FDD1B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F25D03726CBA1B500FDD1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FE8EAE726D7E660003E3CB6 /* ConvertDistanceUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDistanceUnitView.swift; sourceTree = "<group>"; };
+		8FE8EAE926D86CC8003E3CB6 /* GuessTheFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				8F25D02E26CBA1B300FDD1B4 /* WeSplitApp.swift */,
 				8F25D03026CBA1B300FDD1B4 /* ContentView.swift */,
+				8FE8EAE726D7E660003E3CB6 /* ConvertDistanceUnitView.swift */,
+				8FE8EAE926D86CC8003E3CB6 /* GuessTheFlag.swift */,
 				8F25D03226CBA1B500FDD1B4 /* Assets.xcassets */,
 				8F25D03726CBA1B500FDD1B4 /* Info.plist */,
 				8F25D03426CBA1B500FDD1B4 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				8F25D03126CBA1B300FDD1B4 /* ContentView.swift in Sources */,
 				8F25D02F26CBA1B300FDD1B4 /* WeSplitApp.swift in Sources */,
+				8FE8EAE826D7E661003E3CB6 /* ConvertDistanceUnitView.swift in Sources */,
+				8FE8EAEA26D86CC8003E3CB6 /* GuessTheFlag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
