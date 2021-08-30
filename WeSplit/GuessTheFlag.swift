@@ -40,6 +40,10 @@ struct GuessTheFlag: View {
                     }
                 }
                 
+                Text("Now your score is \(userScore) points")
+                    .font(.title2)
+                    .foregroundColor(.white)
+                
                 Spacer()
             }
         }
